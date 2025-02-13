@@ -19,7 +19,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1002354552656))
 
 OWNER_ID = int(getenv("OWNER_ID", 8056154987))
 
-OWNER = int(getenv("OWNER", 2105971379))
+OWNER = int(getenv("OWNER", 8056154987))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
