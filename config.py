@@ -27,14 +27,14 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY","HK543fklqxgt66hvxf")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Shivmis/Super2",
+    "https://github.com/Khushijha5544/alex",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/X_NETWORK_BOTS_I")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/TeamAnupama")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MEETUP_ZONE")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/UR_KARMA_UFF")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2a230af10e0a40638dc77c1febb47170")
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "7f92897a59464ddbbf00f06cd6bda7fc")
