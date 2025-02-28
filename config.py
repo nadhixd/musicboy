@@ -17,9 +17,9 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1002354552656))
 
-OWNER_ID = int(getenv("OWNER_ID", 8056154987))
+OWNER_ID = int(getenv("OWNER_ID", 5605603670))
 
-OWNER = int(getenv("OWNER", 8056154987))
+OWNER = int(getenv("OWNER", 5605603670))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -33,7 +33,7 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MEETUP_ZONE")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Meetupzone_Chatting")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/UR_KARMA_UFF")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2a230af10e0a40638dc77c1febb47170")
