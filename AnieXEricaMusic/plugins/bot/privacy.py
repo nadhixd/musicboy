@@ -67,7 +67,7 @@ async def on_back_to_privacy(client, callback_query: CallbackQuery):
 
 Your privacy is important to us. To learn more about how we collect, use, and protect your data, please review our Privacy Policy here: [Privacy Policy]({config.BOT_PRIVACY}).
 
-If you have any questions or concerns, feel free to reach out to our [Support Team](https://t.me/Sargam_Updates).
+If you have any questions or concerns, feel free to reach out to our [Support Team](https://t.me/Meetupzone_Chatting).
     """
     await callback_query.message.edit_text(
         TEXT,
